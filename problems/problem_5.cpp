@@ -21,11 +21,11 @@ float problemSolution5(float x, float y, char operation) {
                 result = x / y;
                 return result;
             } else {
-                return std::nanf("");
+                return -1;
             }
             break;
         default:
-            return std::nanf("");
+            return -1;
     }
 
    return result;
