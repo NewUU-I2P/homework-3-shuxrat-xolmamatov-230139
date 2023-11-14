@@ -19,11 +19,11 @@ float problemSolution5(float x, float y, char operation) {
                 result = x / y;
                 return result;
             } else {
-                return "Error: Division by zero is not allowed.";
+                return x;
             }
             break;
         default:
-            return "Error: Invalid arithmetic operation symbol.";
+            return x;
     }
 
    return result;
