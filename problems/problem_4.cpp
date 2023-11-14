@@ -6,13 +6,15 @@ std::string problemSolution4(const std::string &macAddress) {
     // write your code here
 //    std::string result;
 //    int ans = 0;
-//    if(macAddress == "FF:FF:FF:FF:FF:FF"){
+//    if(macAddress == "FF:FF:FF:FF:FF:FF")
+//      then
 //        result =   "broadcast";
-//    }else if(macAddress[1]%2 == 0){
+//    if(macAddress[1]%2 == 0)
+//      then
 //        result = "uni cast";
-//    }else{
+//    or
 //        result = "multicast";
-//    }
+//
 //    return result;
     std::string hex_ints[6] = {"10","11","12","13","14","15"};
     std::string hex_letters[6] = {"A","B","C","D","E","F"};
