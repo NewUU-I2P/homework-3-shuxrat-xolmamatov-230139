@@ -19,11 +19,11 @@ float problemSolution5(float x, float y, char operation) {
                 result = x / y;
                 return result;
             } else {
-                return x;
+                return "is not devisible";
             }
             break;
         default:
-            return x;
+            return "error";
     }
 
    return result;
