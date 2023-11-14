@@ -35,12 +35,12 @@ std::string problemSolution4(const std::string &macAddress) {
     }
 
     if (j == 255){
-        result = "broadcast";
+        result = "Broadcast";
     } else {
         if (j%2 == 1){
-            result = "multicast";
+            result = "Multicast";
         } else{
-            result = "unicast";
+            result = "Unicast";
         }
     }
 
