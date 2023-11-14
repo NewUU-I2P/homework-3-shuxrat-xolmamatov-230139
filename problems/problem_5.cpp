@@ -1,5 +1,4 @@
 
-class string;
 
 float problemSolution5(float x, float y, char operation) {
    float result;
@@ -22,11 +21,11 @@ float problemSolution5(float x, float y, char operation) {
                 result = x / y;
                 return result;
             } else {
-                return "is not devisible";
+                return std::nanf("");
             }
             break;
         default:
-            return "error";
+            return std::nanf("");
     }
 
    return result;

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 #include "problems/problem_1.cpp"
 #include "problems/problem_2.cpp"
 #include "problems/problem_3.cpp"
