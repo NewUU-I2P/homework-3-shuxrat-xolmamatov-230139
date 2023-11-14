@@ -7,7 +7,7 @@ std::string problemSolution4(const std::string &macAddress) {
     if(macAddress == "FF:FF:FF:FF:FF:FF"){
         return "broadcast";
     }else if(macAddress[1]%2 == 0){
-        return "unicast";
+        return "uni cast";
     }else{
         return "multicast";
     }
